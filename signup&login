@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Sign Up</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .login-box {
+            background-color: #fff;
+            border: 2px solid #000;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .login-box h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .input-box {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+        .forgot-link {
+            display: block;
+            margin-top: 15px;
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+        }
+        .forgot-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Log in / Sign up</h1>
+        <input type="text" placeholder="Username" class="input-box">
+        <input type="password" placeholder="Password" class="input-box">
+        <button type="button" style="padding: 10px 20px; border-radius: 5px; background-color: #000; color: #fff; border: none; cursor: pointer;">Submit</button>
+        <a href="#" class="forgot-link">Forgot?</a>
+    </div>
+</body>
+</html>
