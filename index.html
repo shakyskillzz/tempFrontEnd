@@ -27,22 +27,24 @@
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .header {
+        nav {
+            width: 100%;
+            background-color: #007BFF;
+            padding: 10px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 100%;
-            padding: 0 20px;
             box-sizing: border-box;
+            color: #fff;
         }
-        .header h1 {
+        nav h1 {
             margin: 0;
             font-size: 24px;
         }
         .signin {
             font-size: 16px;
             text-decoration: none;
-            color: #007BFF;
+            color: #fff;
         }
         .content {
             margin-bottom: 20px;
@@ -62,11 +64,11 @@
     </style>
 </head>
 <body>
+    <nav>
+        <h1>Logo Name</h1>
+        <a href="#" class="signin">Sign In</a>
+    </nav>
     <div class="container">
-        <div class="header">
-            <h1>Logo Name</h1>
-            <a href="#" class="signin">Sign In</a>
-        </div>
         <div class="content">
             <p>Welcome to our web app. Please sign in to continue or press start to explore.</p>
         </div>
@@ -74,5 +76,6 @@
     </div>
 </body>
 </html>
+
 
 
